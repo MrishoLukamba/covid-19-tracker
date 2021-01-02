@@ -1,0 +1,31 @@
+.infoBox {
+    flex: 1;
+    cursor: pointer;
+    
+}
+
+.infoBox:not(:last-child){
+    margin-right: 9px;
+}
+
+.infoBox_cases{
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0.5rem;
+    
+}
+
+
+.infoBox_total {
+    color: darkslategrey;
+}
+
+.infoBox--selected{
+    border-top: 10px solid darkkhaki !important;
+}
+.infoBox--Red {
+    border-top: 10px solid darkred !important;
+}
+.infoBox--Blue {
+    border-top: 10px solid rgba(13, 3, 78, 0.192) ;
+}

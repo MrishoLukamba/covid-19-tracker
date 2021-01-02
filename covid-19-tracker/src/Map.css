@@ -1,0 +1,45 @@
+.map {
+    height: 600px;
+    background-color: rgb(57, 73, 87);
+    padding: 0.3rem;
+    border-radius: 7px;
+    margin-top: 10px;
+    box-shadow: rgba(127, 171, 202, 0.137);
+}
+.map .leaflet-container {
+    height: 100%;
+}
+
+.info_flag img{
+    width: 100px;
+    border-radius: 2px;
+}
+
+.info_flag {
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.popup_box {
+    width: 100px;
+}
+
+.info_cases,
+.info_test,
+.info_recovered,
+.info_deaths {
+    font-size: 13px;
+    margin-top: 1px;
+    font-style: unset;
+    color: darkkhaki;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.info_country {
+    font-weight: bolder;
+    font-style: initial;
+    color: rgba(82, 95, 25, 0.712);
+}
